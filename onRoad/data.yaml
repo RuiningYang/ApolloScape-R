@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['1', '2', '3']
+
+roboflow:
+  workspace: northeastern-0ra0g
+  project: 200-glftt
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/northeastern-0ra0g/200-glftt/dataset/3
